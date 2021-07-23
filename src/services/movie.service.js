@@ -1,5 +1,5 @@
 import axios from 'axios';
-const apiKey = 'f185c2da';
+const apiKey = '';
 
 export default class MovieService {
     getMovieByTitle({ title, type }, page = 1) {
