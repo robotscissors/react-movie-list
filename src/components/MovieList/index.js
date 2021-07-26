@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { MovieCard } from '../MovieCard';
 import { DetailsModal } from '../DetailsModal';
 import { MovieDetails } from '../MovieDetails';
+import { AddMovieToList } from '../AddMovieToList';
 
 import { MovieListContainer } from './styled';
 
@@ -33,7 +34,7 @@ export const MovieList = ({ movies }) => {
     return (
         <MovieListContainer>
             {
-                movieDetailsId 
+                movieDetailsId
                     ? renderDetailsModal()
                     : renderMovies()
             }

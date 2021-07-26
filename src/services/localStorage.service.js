@@ -6,4 +6,5 @@ export default class LocalStorageService {
     setItem(itemName, value) {
         return localStorage.setItem(itemName, JSON.stringify(value));
     }
+
 }

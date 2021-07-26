@@ -12,8 +12,8 @@ export const Navigation = () => {
                 <Navbar.Brand>Movie Database Tool</Navbar.Brand>
                 <Navbar.Collapse>
                     <Nav>
-                        <Link to="/">Home</Link>  
-                        <Link to="/movie-list">Movie Lists</Link>
+                        <Link style={{padding: "10px"}} to="/">Home</Link>
+                        <Link style={{padding: "10px"}} to="/movie-list">Movie Lists</Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
